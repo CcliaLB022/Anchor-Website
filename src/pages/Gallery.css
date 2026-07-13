@@ -1,0 +1,38 @@
+#Gallery {
+    position: relative;
+    padding-top: 150px;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgb(28, 27, 27);
+}
+
+#Photo {
+    top: 35%;
+    left: 15%;
+    position: absolute;
+
+    box-shadow: 10px 10px 5px rgba(28, 27, 27, 0.301);
+
+    transition: transform 3s ease-out;
+}
+
+.stage_hidden {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+    pointer-events: none;
+}
+
+.stage_middle {
+    z-index: 2;
+    transform: translate(-50%, -50%) translate(520px, 80px) scale(1.3) rotate(-3.5deg);
+}
+
+.stage_left {
+    transform: translate(-50%, -50%) translate(-100px, 200px) rotate(-15deg);
+}
+
+.stage_right {
+    transform: translate(-50%, -50%) translate(1200px, 170px) rotate(8deg);
+}

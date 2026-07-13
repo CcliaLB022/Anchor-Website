@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(28, 27, 27);
+}
+
+/* Scroll bar */
+/* Modern browsers — Chrome 121+, Edge 121+, Firefox, Safari 18.2+ */
+* {
+  scrollbar-width: 4px;
+  scrollbar-color: #d3d8de #131313;
+}
+
+/* Legacy WebKit — older Chrome/Edge/Safari, radius, borders & shadows */
+*::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}

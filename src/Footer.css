@@ -1,0 +1,11 @@
+footer {
+    height: 100px;
+
+    color: antiquewhite;
+    background-color: rgb(28, 27, 27);
+    font-family: "Libre Baskerville", serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

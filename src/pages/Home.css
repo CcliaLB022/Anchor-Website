@@ -1,0 +1,64 @@
+#Home{
+    margin: 0;
+    background-color: rgb(28, 27, 27);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    overflow-x: hidden;
+}
+
+img {
+    margin-right: -10%;
+    height: 750px;
+}
+
+p {
+    padding: 5px;
+    padding-left: 0;
+}
+
+h2 {
+    margin: 10px;
+    margin-left: 0;
+}
+
+#main {
+    color: #f2f2f2;
+
+    padding-top: 100px;
+    margin: 50px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50%;
+    min-height: 700px;
+
+    transition: all 0.7s ease-in;
+}
+
+#contacts a {
+    margin: 5px;
+    display: inline-block;
+}
+#contacts a svg{
+    width: 50px;
+    height: 50px;
+    color: white;
+    transition: all 0.2s ease-in;
+}
+#contacts a svg:hover {
+    transform: scale(1.2);
+    color: rgb(167, 227, 207);
+}
+
+.Cards {
+    display: flex;
+}
+.Cards svg{
+    width: 30px;
+    height: 30px;
+}
