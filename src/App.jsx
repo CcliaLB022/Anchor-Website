@@ -22,7 +22,7 @@ function AnimatedRoutes(){
         transition={{ duration: 0.3 }}
       >
         <Routes location={location}>
-          <Route path="/" element={<Home />} />
+          <Route path="/Anchor-Website" element={<Home />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Blog" element={<Blog />} />
         </Routes>
