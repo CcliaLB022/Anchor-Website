@@ -9,7 +9,7 @@ function Header(){
 
     return(
         <header>
-            <Link to="/" className="nav-link" onClick={play}>Home</Link>
+            <Link to="/Anchor-Website" className="nav-link" onClick={play}>Home</Link>
             <Link to="/Gallery" className="nav-link" onClick={play}>Gallery</Link>
             <Link to="/Blog" className="nav-link" onClick={play}>Blog</Link>
         </header>
